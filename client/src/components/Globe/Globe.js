@@ -1,18 +1,18 @@
 import React,{useState,useEffect} from 'react';
-import './Globe.js';
-import { useData } from '../useData.js';
-import { Marks } from '../Marks/Marks.js';
-const Globe = props=>{
-    const data = useData();    
-    // console.log(data);
-
-   if(!data)
+import './Globe.css';
+import  ProjectFlat  from '../Projects/ProjectFlat.js';
+import Project3D from '../Projects/Project3D.js';
+const Globe = ({data, project, enableRotation,
+    width,height})=>{                
+    project==="ProjectFlat"?ProjectFlat(data,width,height):Project3D(data,enableRotation)
+    if(!data)
    return(<div>
     loading
-    </div>);  
-   return(<svg  width="960" height="500">
-       <Marks data={data}/>
-    </svg>);
+    </div>); 
+    else         
+        return(<svg className ="globe" height={height} width={width}>       
+    </svg>);    
+   
 }
 
 export default Globe;
