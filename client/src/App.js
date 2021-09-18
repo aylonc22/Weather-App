@@ -6,7 +6,7 @@ import Handle from './components/Handle.js';
 
 
 function App() {
-  const data = useData();  
+  const data = useData();   
   return (
     <div className="App"> 
     <div className='stars'></div>

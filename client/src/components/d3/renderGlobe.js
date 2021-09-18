@@ -1,6 +1,7 @@
 import { geoOrthographic , geoPath, geoGraticule , select} from 'd3';
 import drawCountry from './drawCountry.js';
 import drawGlobe from './drawGlobe.js';
+import manageGlobe from './manageGlobe.js';
 import removePath from './removePaths.js';
 import rotateGlobe from './rotateGlobe.js';
 const renderGlobe =(data,
@@ -22,6 +23,7 @@ const renderGlobe =(data,
    removePath(svg); 
    drawGlobe(svg,path);           
    drawCountry(svg,path,data);
+   manageGlobe(svg,projection,path);
    if(enableRotation===true)
         timer = rotateGlobe(svg,projection,path); 
     return timer; 
