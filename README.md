@@ -25,4 +25,4 @@ Project is created with:
 
 ## Acknowledgements
 * This project was based on [Curran Kelleher](https://www.youtube.com/watch?v=mzZ1fCXq-uo&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=32) "making a world map in react"
-* And [daniel-payne](https://github.com/daniel-payne/demotracker-client/tree/67ec30b84a9f60b77c7ea4fe9c3fdd829f387b82) repository
+* [@daniel-payne](https://github.com/daniel-payne/demotracker-client/tree/67ec30b84a9f60b77c7ea4fe9c3fdd829f387b82) repository
