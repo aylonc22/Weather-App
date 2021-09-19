@@ -9,9 +9,9 @@ function App() {
   const data = useData();   
   return (
     <div className="App"> 
-    <div className='stars'></div>
-    <div className='twinkling'></div>
-    <Handle data={data}/>   
+    {/* <div className='stars'></div>
+    <div className='twinkling'></div> */}
+    {data!=null?<Handle data={data}/>:null}   
     </div>
   );
 }

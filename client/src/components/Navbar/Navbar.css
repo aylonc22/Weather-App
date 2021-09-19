@@ -1,22 +1,21 @@
-.navbar{   
-   top: 0;
-   margin-top: 1%;
+.navbar{     
+   margin: 1.5%;
+   margin-left: 5%;
     width: 100%;
-    height: 5%;
-    position: fixed;
+    height: 5%;    
     display: flex;
     align-items: center;
   justify-content: center;
-    z-index: 2;
+    z-index: 2;    
 }
 
 .components{
-    width: 40%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-right: 10%;
+    justify-content: flex-start;
+    margin-right: 20%;
    
 }
 .container{
@@ -24,7 +23,8 @@
     width: 250px;
     height: 50px;
     background-color: white;
-    border: 1px solid #D0CFCE;   
+    border: 1px solid #D0CFCE;  
+    border-radius: 4px; 
 }
 
 .containerClicked{
@@ -35,7 +35,7 @@
     border: 1px solid blue ;/* #008ABF */
     transition: 0.35s ease;
     outline: none;
-    
+    border-radius: 4px;
 }
 .search{
    width: 70%;
@@ -83,9 +83,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    width: 150px;
-    height: 50px;
-    background-color: red;
+    width: 30%;
+    height: 100%;
+    background-color: #137B80;
     color: white;
-    cursor: pointer;   
+    cursor: pointer;  
+    margin-left:2% ; 
 }

@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import countries from 'countries-api';
 import './DataCara.css'
+import { Navbar } from "../Navbar/Navbar";
 const DataCard = ({country,details})=>{
     const [image,setImage] = useState(null); 
     const [data,setData] = useState(null);
@@ -49,6 +50,7 @@ const DataCard = ({country,details})=>{
              </div>
             
     </div>:<div  className ="dataCard" style={inCard!=null?{backgroundImage:`url('https://source.unsplash.com/1600x900/?${country}`}:null}>
+        <Navbar/>
         <div className ="current">             
             <div className="part1">    
                 <div className="left">

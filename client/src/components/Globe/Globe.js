@@ -4,7 +4,7 @@ import  ProjectFlat  from '../Projects/ProjectFlat.js';
 import Project3D from '../Projects/Project3D.js';
 const Globe = ({data, project, enableRotation,setSelectedCountry})=>{                
     const width = 1200;
-    const height = 700;
+    const height = 800;
     project==="ProjectFlat"?ProjectFlat(data,width,height,setSelectedCountry):Project3D(data,enableRotation);   
     if(!data)
    return(<div className ="loading"> 
