@@ -2,7 +2,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-*  [Room for Improvement](#room-for-improvement)
+* [ScreenShot](#screenshot)
+* [Room for Improvement](#room-for-improvement)
 * [Sources](#sources)
 * [Acknowledgements](#acknowledgements)
 
@@ -14,6 +15,9 @@ Project is created with:
 * react create-my-app
 * d3
 * npm countries-api
+
+## ScreenShot
+![sample](./screenshot.png)
 
 ## Room for Improvement
 - Finish project3D 
