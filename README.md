@@ -16,7 +16,7 @@ Project is created with:
 * npm countries-api
 
 ## Room for Improvement
-- Finish project3d when I'll get a new computer
+- Finish project3D 
 - Boosting performence quality
 
 ## Sources
