@@ -2,7 +2,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [ScreenShot](#screenshot)
+* [Preview](#preview)
 * [Room for Improvement](#room-for-improvement)
 * [Sources](#sources)
 * [Acknowledgements](#acknowledgements)
@@ -16,7 +16,7 @@ Project is created with:
 * d3
 * npm countries-api
 
-## ScreenShot
+## Preview
 ![sample](./screenshot.png)
 
 ## Room for Improvement
