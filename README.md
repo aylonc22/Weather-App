@@ -12,7 +12,7 @@ This project is a d3 visualisation based map of the world which show the weather
 	
 ## Technologies
 Project is created with:
-* react create-my-app
+* react create-react-app
 * d3
 * npm countries-api
 
